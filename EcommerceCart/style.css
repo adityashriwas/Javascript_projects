@@ -1,0 +1,113 @@
+/* style.css - Dark & Blue E-Commerce Cart Theme */
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #0f172a; /* dark navy */
+    color: #e2e8f0; /* light text */
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Main Container */
+  .container {
+    background-color: #1e293b; /* slate blue-gray */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #3b82f6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Product List & Cart */
+  #product-list, #cart-items {
+    background-color: #334155;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Example product/card style (in case JS adds them) */
+  .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #475569;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product button, .remove-item {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Cart Section */
+  #cart-items p {
+    font-size: 16px;
+  }
+
+  .cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+  }
+  
+  #cart-total {
+    background-color: #1e40af;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #cart-total p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #checkout-btn {
+    background-color: #22c55e; /* green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #16a34a;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
