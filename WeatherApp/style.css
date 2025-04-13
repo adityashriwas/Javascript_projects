@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #0f172a; /* dark navy */
+    color: #e0f2fe; /* light blue text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Main Container */
+  .container {
+    background-color: #1e293b; /* slate blue-gray */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+  
+  /* Input Container */
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #city-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #334155;
+    color: #e0f2fe;
+  }
+  
+  #city-input::placeholder {
+    color: #94a3b8;
+  }
+  
+  #get-weather-btn {
+    padding: 10px 20px;
+    background-color: #3b82f6; /* vibrant blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #get-weather-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Weather Info Section */
+  .weather-info {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    margin: 6px 0;
+    font-size: 18px;
+  }
+  
+  #error-message {
+    color: #f87171; /* soft red */
+    margin-top: 20px;
+    font-size: 16px;
+    display: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

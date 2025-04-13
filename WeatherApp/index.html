@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="city-input" placeholder="Enter city name" required>
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+        <div class="hidden" id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <div class="hidden" id="error-message">City not found, Please try again.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
