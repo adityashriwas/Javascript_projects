@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Reset + base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f172a; /* dark blue */
+    color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    background-color: #1e293b; /* slightly lighter dark */
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #3b82f6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #334155;
+    color: #e2e8f0;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #3b82f6;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+#expense-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+#expense-list li {
+    background-color: #334155;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#total {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #facc15;
+}
