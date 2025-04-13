@@ -29,7 +29,7 @@ A simple number guessing game where the user tries to guess a randomly generated
 This project tracks that which key is pressed on keyboard and that it shows the key name on screen.
 
 ### 9. Quiz App
-This is a simple quiz application that allows users to answer multiple-choice questions and see their score at the end. The app is built using HTML, CSS, and JavaScript. The questions are stored in a JSON file, and the app dynamically loads them into the HTML structure. The user can start the quiz, answer questions, and view their score at the end. The app also includes a restart button to allow users to retake the quiz without refreshing the page.
+This is a simple quiz application that allows users to answer multiple-choice questions and see their score at the end. The app is built using HTML, CSS, and JavaScript. The user can start the quiz, answer questions, and view their score at the end. The app also includes a restart button to allow users to retake the quiz without refreshing the page.
 
 ### 10. Todo - Local Storage
 todo app with local storage where you can add, remove, and mark tasks as completed. The tasks should persist even after refreshing the page.
